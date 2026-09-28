@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+</head>
+
+<body>
+
+    <!-- Announcement Bar -->
+    <div class="announcement-bar">
+        <div class="announcement-track">
+
+            <span>✨ Free Shipping on Orders Above Rs. 3,000</span>
+            <span>♡ Discover Our Latest Jewelry Collection</span>
+            <span>✦ Embrace Your Golden Aura</span>
+            <span>🎁 Elegant Jewelry, Made for Every Moment</span>
+
+            <!-- Repeat for seamless sliding -->
+            <span>✨ Free Shipping on Orders Above Rs. 3,000</span>
+            <span>♡ Discover Our Latest Jewelry Collection</span>
+            <span>✦ Embrace Your Golden Aura</span>
+            <span>🎁 Elegant Jewelry, Made for Every Moment</span>
+
+        </div>
+    </div>
+
+
+    <!-- =========================
+     NAVBAR
+========================= -->
+
+    <header class="navbar">
+
+        <!-- Hamburger Menu -->
+        <button class="menu-btn" id="menuBtn" aria-label="Open menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+
+        <!-- Logo -->
+        <div class="logo">
+            <a href="#home">
+                <img src="Aniqaure logo.png" alt="ANIQAURÉ Logo">
+            </a>
+        </div>
+
+
+        <!-- Desktop Navigation -->
+        <nav class="desktop-nav">
+
+            <a href="#home">Home</a>
+
+            <a href="#earrings">Earrings</a>
+
+            <a href="#ring">Rings</a>
+
+            <a href="#pendants-lockets">Pendants & Lockets</a>
+
+            <a href="#bangles-bracelets">Bangles & Bracelets</a>
+
+        </nav>
+
+
+        <!-- Search + Shopping Bag -->
+        <div class="nav-icons">
+
+            <a href="#" aria-label="Search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </a>
+
+            <a href="#" aria-label="Shopping Bag">
+                <i class="fa-solid fa-bag-shopping"></i>
+            </a>
+
+        </div>
+
+    </header>
+
+
+
+    <!-- =========================
+     SIDE MENU
+========================= -->
+
+    <div class="menu-overlay" id="menuOverlay"></div>
+
+
+    <aside class="side-menu" id="sideMenu">
+
+        <!-- Close Button -->
+        <button class="close-menu" id="closeMenu" aria-label="Close menu">
+            &times;
+        </button>
+
+
+        <!-- Side Menu Logo -->
+        <div class="side-menu-logo">
+
+            <img src="Aniqaure logo.png" alt="ANIQAURÉ Logo">
+
+        </div>
+
+
+        <!-- Side Menu Links -->
+        <nav class="side-links">
+
+            <a href="#home">Home</a>
+
+            <a href="#earrings">Earrings</a>
+
+            <a href="#ring">Rings</a>
+
+            <a href="#pendants-lockets">
+                Pendants & Lockets
+            </a>
+
+            <a href="#bangles-bracelets">
+                Bangles & Bracelets
+            </a>
+
+        </nav>
+
+    </aside>
+
+
+    <div class="hero-image">
+        <img src="hero banner.png" alt="Jwellery image">
+    </div>
+
+    <!-- ================= COLLECTIONS ================= -->
+
+    <section class="collections-section" id="collections">
+
+        <div class="collections-heading">
+            <h2>✨ Adorn Your Aura</h2>
+            <p>Timeless pieces crafted to complement your golden aura.</p>
+        </div>
+
+        <div class="collections-grid">
+
+            <!-- Earrings -->
+            <div class="collection-card" id="earrings">
+                <img src="Earrings Collection.jpg" alt="Earrings Collection">
+
+                <div class="collection-overlay">
+                    <h2>Earrings</h2>
+                    <a href="#earrings">SHOP NOW</a>
+                </div>
+            </div>
+
+
+            <!-- Rings -->
+            <div class="collection-card" id="ring">
+                <img src="Rings collection.jpg
+                " alt="Rings Collection">
+
+                <div class="collection-overlay">
+                    <h2>Rings</h2>
+                    <a href="#ring">SHOP NOW</a>
+                </div>
+            </div>
+
+
+            <!-- Bangles & Bracelets -->
+            <div class="collection-card" id="bangels-bracelets">
+                <img src="Bangles & Bracelets.jpg" alt="Bangles and Bracelets Collection">
+
+                <div class="collection-overlay">
+                    <h2>Bangles &amp; Bracelets</h2>
+                    <a href="#bangels-bracelets">SHOP NOW</a>
+                </div>
+            </div>
+
+
+            <!-- Pendants & Lockets -->
+            <div class="collection-card" id="pendants-lockets">
+                <img src="Lockets collection.jpg" alt="Pendants and Lockets Collection">
+
+                <div class="collection-overlay">
+                    <h2>Pendants &amp; Lockets</h2>
+                    <a href="#pendants-lockets">SHOP NOW</a>
+                </div>
+            </div>
+
+
+            <!-- Watches -->
+            <div class="collection-card" id="watches">
+                <img src="Watches  Collection.jpg" alt="Watches Collection">
+
+                <div class="collection-overlay">
+                    <h2>Watches</h2>
+                    <a href="#watches">SHOP NOW</a>
+                </div>
+            </div>
+
+
+            <!-- Jewelry Sets -->
+            <div class="collection-card" id="jewelry-sets">
+                <img src="Jwellery set collection.jpg" alt="Jewelry Sets Collection">
+
+                <div class="collection-overlay">
+                    <h2>Jewelry Sets</h2>
+                    <a href="#jewelry-sets">SHOP NOW</a>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- ================= TRENDING PRODUCTS ================= -->
+
+        <section class="trending-section">
+
+            <div class="trending-heading">
+                <h2>💎Currently Coveted</h2>
+                <p>The pieces everyone is loving right now.</p>
+            </div>
+
+            <div class="products-slider">
+
+                <!-- Left Arrow -->
+                <button class="slider-arrow left-arrow" onclick="scrollProducts(-1)">
+                    <i class="fa-solid fa-arrow-left"></i>
+                </button>
+
+
+                <!-- Products -->
+                <div class="trending-products" id="trendingProducts">
+
+                    <!-- Product 1 -->
+                    <div class="product-card">
+                        <div class="product-image">
+                            <span class="trending-badge">TRENDING</span>
+
+                            <img src="heart pendant.jpg" alt="Golden Heart Pendant">
+
+                            <button class="cart-icon">
+                                <i class="fa-solid fa-bag-shopping"></i>
+                            </button>
+                        </div>
+
+                        <div class="product-info">
+                            <h3>Golden Heart Pendant</h3>
+                            <p class="price">Rs. 2,499</p>
+
+                            <button class="add-cart">ADD TO CART</button>
+                        </div>
+                    </div>
+
+
+                    <!-- Product 2 -->
+                    <div class="product-card">
+                        <div class="product-image">
+                            <span class="trending-badge">TRENDING</span>
+
+                            <img src="ring.jpg" alt="Elegant Gold Ring">
+
+                            <button class="cart-icon">
+                                <i class="fa-solid fa-bag-shopping"></i>
+                            </button>
+                        </div>
+
+                        <div class="product-info">
+                            <h3>Elegant Gold Ring</h3>
+                            <p class="price">Rs. 1,999</p>
+
+                            <button class="add-cart">ADD TO CART</button>
+                        </div>
+                    </div>
+
+
+                    <!-- Product 3 -->
+                    <div class="product-card">
+                        <div class="product-image">
+                            <span class="trending-badge">TRENDING</span>
+
+                            <img src="earring.jpg" alt="Pearl Drop Earrings">
+
+                            <button class="cart-icon">
+                                <i class="fa-solid fa-bag-shopping"></i>
+                            </button>
+                        </div>
+
+                        <div class="product-info">
+                            <h3>Pearl Drop Earrings</h3>
+                            <p class="price">Rs. 2,799</p>
+
+                            <button class="add-cart">ADD TO CART</button>
+                        </div>
+                    </div>
+
+
+                    <!-- Product 4 -->
+                    <div class="product-card">
+                        <div class="product-image">
+                            <span class="trending-badge">TRENDING</span>
+
+                            <img src="bracelet.jpg" alt="Golden Bracelet">
+
+                            <button class="cart-icon">
+                                <i class="fa-solid fa-bag-shopping"></i>
+                            </button>
+                        </div>
+
+                        <div class="product-info">
+                            <h3>Golden Bracelet</h3>
+                            <p class="price">Rs. 3,299</p>
+
+                            <button class="add-cart">ADD TO CART</button>
+                        </div>
+                    </div>
+
+
+                    <!-- Product 5 -->
+                    <div class="product-card">
+                        <div class="product-image">
+                            <span class="trending-badge">TRENDING</span>
+
+                            <img src="chain.jpg" alt="Classic Gold Chain">
+
+                            <button class="cart-icon">
+                                <i class="fa-solid fa-bag-shopping"></i>
+                            </button>
+                        </div>
+
+                        <div class="product-info">
+                            <h3>Classic Gold Chain</h3>
+                            <p class="price">Rs. 3,499</p>
+
+                            <button class="add-cart">ADD TO CART</button>
+                        </div>
+                    </div>
+
+
+                    <!-- Product 6 -->
+                    <div class="product-card">
+                        <div class="product-image">
+                            <span class="trending-badge">TRENDING</span>
+
+                            <img src="EARRINGS.jpg" alt="Gold Earrings">
+
+                            <button class="cart-icon">
+                                <i class="fa-solid fa-bag-shopping"></i>
+                            </button>
+                        </div>
+
+                        <div class="product-info">
+                            <h3>Classic Gold Earrings</h3>
+                            <p class="price">Rs. 2,299</p>
+
+                            <button class="add-cart">ADD TO CART</button>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <!-- Right Arrow -->
+                <button class="slider-arrow right-arrow" onclick="scrollProducts(1)">
+                    <i class="fa-solid fa-arrow-right"></i>
+                </button>
+
+            </div>
+
+        </section>
+
+        <!-- ================= SHOP BY BUDGET ================= -->
+
+        <section class="budget-section">
+
+            <div class="budget-heading">
+                <h2>💫Jewels for Every Budget</h2>
+                <p>Beautiful pieces for every occasion and every budget.</p>
+            </div>
+
+            <div class="budget-grid">
+
+                <!-- Under 2,000 -->
+                <a href="#" class="budget-card">
+                    <img src="1.jpg" alt="Jewelry under Rs. 2,000">
+
+                    <div class="budget-overlay">
+                        <h3>Under Rs. 2,000</h3>
+                        <span>SHOP NOW</span>
+                    </div>
+                </a>
+
+
+                <!-- 2,000 - 4,000 -->
+                <a href="#" class="budget-card">
+                    <img src="2.jpg" alt="Jewelry from Rs. 2,000 to Rs. 4,000">
+
+                    <div class="budget-overlay">
+                        <h3>Rs. 2,000 – 4,000</h3>
+                        <span>SHOP NOW</span>
+                    </div>
+                </a>
+
+
+                <!-- 4,000 - 6,000 -->
+                <a href="#" class="budget-card">
+                    <img src="3.jpg" alt="Jewelry from Rs. 4,000 to Rs. 6,000">
+
+                    <div class="budget-overlay">
+                        <h3>Rs. 4,000 – 6,000</h3>
+                        <span>SHOP NOW</span>
+                    </div>
+                </a>
+
+
+                <!-- Above 6,000 -->
+                <a href="#" class="budget-card">
+                    <img src="4.jpg" alt="Jewelry above Rs. 6,000">
+
+                    <div class="budget-overlay">
+                        <h3>Above Rs. 6,000</h3>
+                        <span>SHOP NOW</span>
+                    </div>
+                </a>
+
+            </div>
+
+        </section>
+
+        <!-- ================= FOOTER ================= -->
+        <footer class="jewelry-footer">
+
+            <!-- Service Features -->
+            <div class="footer-services">
+
+                <div class="service-item">
+                    <div class="service-icon">✦</div>
+                    <div>
+                        <h4>Chat Support</h4>
+                        <p>We're here to help you</p>
+                    </div>
+                </div>
+
+                <div class="service-item">
+                    <div class="service-icon">◇</div>
+                    <div>
+                        <h4>Exceptional Value</h4>
+                        <p>Luxury at the right value</p>
+                    </div>
+                </div>
+
+                <div class="service-item">
+                    <div class="service-icon">♢</div>
+                    <div>
+                        <h4>Replacement Warranty</h4>
+                        <p>Shop with confidence</p>
+                    </div>
+                </div>
+
+                <div class="service-item">
+                    <div class="service-icon">⌁</div>
+                    <div>
+                        <h4>Fast Delivery</h4>
+                        <p>Delivered to your doorstep</p>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <!-- Main Footer -->
+            <div class="footer-main">
+
+                <!-- Brand -->
+                <div class="footer-column footer-brand">
+
+                    <h2>ANIQAURÉ</h2>
+
+                    <p class="footer-tagline">
+                        Embrace Your Golden Aura
+                    </p>
+
+                    <p>
+                        Discover timeless jewelry designed to add
+                        elegance, confidence and a touch of golden
+                        beauty to every moment.
+                    </p>
+
+                    <div class="social-icons">
+                        <a href="#" aria-label="Instagram">◎</a>
+                        <a href="#" aria-label="Facebook">f</a>
+                        <a href="#" aria-label="Pinterest">p</a>
+                        <a href="#" aria-label="TikTok">♪</a>
+                    </div>
+
+                </div>
+
+
+                <!-- Quick Links -->
+                <div class="footer-column">
+
+                    <h3>Quick Links</h3>
+
+                    <a href="#">Home</a>
+                    <a href="#">Shop</a>
+                    <a href="#">Collections</a>
+                    <a href="#">New Arrivals</a>
+                    <a href="#">Best Sellers</a>
+
+                </div>
+
+
+                <!-- Customer Care -->
+                <div class="footer-column">
+
+                    <h3>Customer Care</h3>
+
+                    <a href="#">Contact Us</a>
+                    <a href="#">Shipping & Delivery</a>
+                    <a href="#">Returns & Exchanges</a>
+                    <a href="#">FAQs</a>
+                    <a href="#">Privacy Policy</a>
+
+                </div>
+
+
+                <!-- About -->
+                <div class="footer-column">
+
+                    <h3>About ANIQAURÉ</h3>
+
+                    <a href="#">Our Story</a>
+                    <a href="#">Jewelry Care</a>
+                    <a href="#">Size Guide</a>
+                    <a href="#">Terms & Conditions</a>
+                    <a href="#">Track Your Order</a>
+
+                </div>
+
+
+                <!-- Newsletter -->
+                <div class="footer-column newsletter">
+
+                    <h3>Stay In The Glow</h3>
+
+                    <p>
+                        Be the first to discover new collections,
+                        exclusive offers and timeless jewelry.
+                    </p>
+
+                    <div class="newsletter-box">
+                        <input type="email" placeholder="Your email address">
+                        <button>→</button>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Payment & Delivery -->
+            <div class="footer-payment">
+
+                <div>
+                    <span>Secure Payments</span>
+
+                    <div class="payment-icons">
+                        <span>VISA</span>
+                        <span>MC</span>
+                        <span> Pay</span>
+                        <span>COD</span>
+                    </div>
+                </div>
+
+                <div class="secure-text">
+                    <span>◇</span>
+                    Safe & Secure Checkout
+                </div>
+
+            </div>
+
+
+            <!-- Copyright -->
+            <div class="footer-bottom">
+
+                <p>
+                    © 2026 ANIQAURÉ. All Rights Reserved.
+                </p>
+
+                <p>
+                    Embrace Your Golden Aura ✦
+                </p>
+
+            </div>
+
+        </footer>
+
+        <script>
+
+            const menuBtn = document.getElementById("menuBtn");
+            const closeMenu = document.getElementById("closeMenu");
+
+            const sideMenu = document.getElementById("sideMenu");
+            const menuOverlay = document.getElementById("menuOverlay");
+
+
+            // OPEN MENU
+
+            menuBtn.addEventListener("click", function () {
+
+                sideMenu.classList.add("active");
+
+                menuOverlay.classList.add("active");
+
+            });
+
+
+            // CLOSE MENU
+
+            closeMenu.addEventListener("click", function () {
+
+                sideMenu.classList.remove("active");
+
+                menuOverlay.classList.remove("active");
+
+            });
+
+
+            // CLOSE BY CLICKING OUTSIDE
+
+            menuOverlay.addEventListener("click", function () {
+
+                sideMenu.classList.remove("active");
+
+                menuOverlay.classList.remove("active");
+
+            });
+
+
+            // CLOSE AFTER CLICKING A LINK
+
+            document.querySelectorAll(".side-links a").forEach(function (link) {
+
+                link.addEventListener("click", function () {
+
+                    sideMenu.classList.remove("active");
+
+                    menuOverlay.classList.remove("active");
+
+                });
+
+            });
+
+            function scrollProducts(direction) {
+
+                const products = document.getElementById("trendingProducts");
+
+                const scrollAmount = 320;
+
+                products.scrollBy({
+                    left: direction * scrollAmount,
+                    behavior: "smooth"
+                });
+            }
+
+        </script>
+
+</body>
+
+</html>
